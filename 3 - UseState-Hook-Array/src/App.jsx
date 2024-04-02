@@ -5,17 +5,22 @@ function App() {
   const [people, setPeople] = useState(data)
 
   function removePerson(id) {
+    // alert(id)
     // console.log(id);
     const newPeople = people.filter((person) => person.id !== id)
     setPeople(newPeople)
     // setPeople((prevPeople) => {
     //   return prevPeople.filter((person) => person.id !== id)
     // })
-    console.log(newPeople)
+    // console.log(newPeople)
   }
 
   function clearAllItems() {
     setPeople([])
+  }
+
+  function setAllItems() {
+    setPeople(data)
   }
 
   const singlePerson = people.map((item, index) => {
@@ -39,6 +44,9 @@ function App() {
       {singlePerson}
       <button onClick={clearAllItems} className="useState_btn2">
         Clear Items
+      </button>
+      <button onClick={setAllItems} className="useState_btn2">
+        Set Items
       </button>
     </div>
   )

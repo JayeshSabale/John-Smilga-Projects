@@ -10,16 +10,29 @@
   text-align: center;
 }
 
-.useState_btn1 {
-  margin: 2px;
-  border-radius: 5px;
-  background-color: lightgreen;
-  padding: 5px;
-}
-
+.useState_btn1,
 .useState_btn2 {
   margin: 2px;
   border-radius: 5px;
-  background-color: lightblue;
   padding: 5px;
+  transition: background-color 0.3s ease; /* Adding transition for smooth effect */
+}
+
+.useState_btn1 {
+  background-color: lightgreen;
+}
+
+.useState_btn2 {
+  background-color: lightblue;
+}
+
+/* Hover effect */
+.useState_btn1:hover,
+.useState_btn2:hover {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.1
+  ); /* Change the background color on hover */
 }
