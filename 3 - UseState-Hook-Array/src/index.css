@@ -1,0 +1,25 @@
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+}
+
+.container {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.useState_btn1 {
+  margin: 2px;
+  border-radius: 5px;
+  background-color: lightgreen;
+  padding: 5px;
+}
+
+.useState_btn2 {
+  margin: 2px;
+  border-radius: 5px;
+  background-color: lightblue;
+  padding: 5px;
+}
