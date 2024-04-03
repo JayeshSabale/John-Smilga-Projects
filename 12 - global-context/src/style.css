@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* margin: 0; */
+  text-align: center;
+  margin-top: 100px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+}
+
+/* Component A */
+.componentA {
+  padding: 1rem;
+  background-color: olive;
+  text-align: center;
+}
+
+.componentA h5 {
+  font-weight: bold;
+}
+
+.comA-condition {
+  color: #4caf50; /* Nice shade of green */
+}
+
+/* Component B */
+.componentB {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: aqua;
+  padding: 10px;
+}
+
+/* Component C */
+.componentC {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.componentC p {
+  margin-bottom: 0;
+}
+
+/* Logout button */
+.logout-button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #dc3545; /* Red color for logout button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  color: #c82333;
+  background-color: #fff; /* Darker red color on hover */
+  border: 1px solid #c82333;
+}
+
+/* Login button */
+.login-button {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #077bff; /* Red color for logout button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  color: #077bff;
+  background-color: #fff; /* Darker red color on hover */
+  border: 1px solid #077bff;
+}

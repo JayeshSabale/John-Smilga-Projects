@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+}
+
+.container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.users {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the content horizontally */
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.user-info {
+  margin-inline: 5px;
+  text-align: center; /* Align text content to the left */
+}
+
+.profile-link {
+  color: blue;
+  text-decoration: none;
+}
+
+.profile-link:hover {
+  text-decoration: underline;
+}
+
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form h4 {
+  margin-bottom: 20px;
+}
+
+.form-row {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
